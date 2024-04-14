@@ -1,7 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* write your CSS here */
+body{
+  background-color: #E6E9FB;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.newsletter-container {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px 30px 50px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Merriweather';
+}
+
+.title-container p {
+  width: 580px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 580px;
+}
+
+#email {
+  flex-grow: 3;
+  flex-basis: 200px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  border-color: rgb(209, 209, 209);;
+}
+
+#email::placeholder {
+  color: rgb(209, 209, 209);
+}
+
+button {
+  flex-grow: 1;
+  flex-basis: 80px;
+  padding: 14px;
+  background-color: #111827;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+#checkbox{
+  font-size: 10px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
