@@ -63,11 +63,11 @@ form {
   padding: 15px;
   font-size: 18px;
   border-radius: 6px;
-  border-color: rgb(209, 209, 209);
+  border-color: #E6E9FB;
 }
 
 #email::placeholder {
-  color: rgb(209, 209, 209);
+  color: #E6E9FB;
 }
 
 button {

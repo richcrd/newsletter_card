@@ -62,7 +62,6 @@ Users should be able to:
 - #E6E9FB
 - #000
 - #fff
-- rgb(209, 209, 209)
 - #111827
 - #5a5a5a
 - hsl(228, 45%, 44%)
