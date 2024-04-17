@@ -109,5 +109,48 @@ button:hover {
 @media only screen and (max-width: 768px) {
   .newsletter-container{
     width: 90%;
+    padding: 20px;
+  }
+
+  .title-container {
+    width: auto;
+  }
+
+  .title-container p {
+    width: auto;
+  }
+  
+  form {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .newsletter-container{
+    width: 90%;
+    padding: 20px;
+  }
+
+  .title-container {
+    width: auto;
+  }
+
+  .title-container p {
+    width: auto;
+  }
+  
+  form {
+    width: auto;
+  }
+
+  #email {
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  button {
+    padding: 10px 10px;
+    width: 50%;
   }
 }
