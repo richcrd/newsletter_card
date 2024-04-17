@@ -80,4 +80,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@richcrd](https://www.frontendpro.dev/richcrd/my-solutions)
+- FrontendPro - [@richcrd](https://www.frontendpro.dev/richcrd/my-solutions)
