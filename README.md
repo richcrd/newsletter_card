@@ -27,7 +27,7 @@ Users should be able to:
 - Subscribe to a newsletter using an email.
 - Receive weekly coding challenges.
 
-### Challenge Requiremnents
+### Challenge Requirements
 
 - The Newsletter Card Component should have an email input field for the user to enter their email address and a subscribe button.
 - An email input field should be validated before the user can submit the form.
