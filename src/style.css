@@ -80,6 +80,11 @@ button {
   border-radius: 6px;
 }
 
+button:hover {
+  background-color: #5a5a5a;
+  cursor: pointer;
+}
+
 #checkbox{
   font-size: 10px;
   margin-bottom: 30px;
@@ -99,4 +104,10 @@ button {
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .newsletter-container{
+    width: 90%;
+  }
 }
