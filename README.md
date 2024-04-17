@@ -1,21 +1,33 @@
 ![Newsletter Card Component](./design/desktop-cover.png)
 
-**Challenge Title**
-Newsletter Card Component
+# Frontend Mentor - Newsletter Card Component
 
-**Challenge Description**
-In this frontend challenge, you'll build a Newsletter Card Component. This challenge is perfect for you if you've been learning HTML and CSS and are looking to practice what you've learned by building something new and beginner-friendly.
+This is a solution to the [Newsletter Card Component challenge on FrontendPro](https://www.frontendpro.dev/frontend-coding-challenges/newsletter-card-component-Q3mJZ3AVwbEW4BEKYCKF).
 
-**Difficulty Level**
-Beginner
+## Table of contents
 
-**Tags**
-FRONTEND
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Challenge Requirements](#challenge-requirements)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Style Guide](#style-guide)
+  - [Colors](#colors)
+  - [Typography](#typography)
+  - [Font](#font)
+- [Author](#author)
 
-**Learning**
-In this frontend challenge, you'll learn how to build a real-world UI component using HTML & CSS. You'll also learn how to use CSS Flexbox to lay out the component and make it responsive. This frontend challenge is a great opportunity to improve your HTML & CSS skills by building a beginner-friendly frontend project. So what are you waiting for?
+## Overview
 
-**Requirements**
+### The challenge
+
+Users should be able to:
+- Subscribe to a newsletter using an email.
+- Receive weekly coding challenges.
+
+### Challenge Requiremnents
 
 - The Newsletter Card Component should have an email input field for the user to enter their email address and a subscribe button.
 - An email input field should be validated before the user can submit the form.
@@ -25,39 +37,47 @@ In this frontend challenge, you'll learn how to build a real-world UI component 
 - The component should be responsive and display correctly on different screen sizes.
 - Make this landing page look as close to the design as possible.
 
-I hope you'll enjoy building this challenge.
+### Screenshot
 
-Feel free to share your solution on the [website](https://www.frontendpro.dev/) or on social media and [tag us](https://twitter.com/FrontendProHQ).
+![](./design/final-design.png)
 
-# Front-end Style Guide
+### Links
 
-## Layout
+- Solution URL: [Go to page](https://github.com/richcrd/newsletter_card.git)
+- Live Site URL: [Go to page](https://richcrd.github.io/newsletter_card/)
 
-The designs were created to the following widths:
+## My process
 
-- Mobile: 375px
-- Desktop: 1440px
+### Built with
 
-## Colors
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- JavaScript Validation, functions && alerts
 
-### Primary
+## Style Guide
 
-- Green: hsl(75, 94%, 57%)
+### Colors
 
-### Neutral
+- #E6E9FB
+- #000
+- #fff
+- rgb(209, 209, 209)
+- #111827
+- #5a5a5a
+- hsl(228, 45%, 44%)
 
-- White: hsl(0, 0%, 100%)
-- Grey: hsl(0, 0%, 20%)
-- Dark Grey: hsl(0, 0%, 12%)
-- Off Black: hsl(0, 0%, 8%)
+### Typography
 
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
+- Font size: 16px
 
 ### Font
 
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 600, 700
+- Family: [Poppins](https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap)
+- Weights: 100...
+- Family: [Merriweather](https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap)
+- Weights: 100...
+
+## Author
+
+- Frontend Mentor - [@richcrd](https://www.frontendpro.dev/richcrd/my-solutions)
